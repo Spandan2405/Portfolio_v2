@@ -2,9 +2,9 @@
 
 **Portfolio Website**
 
-# URL: https://spandangupta-v2.netlify.app/
+**URL: https://spandangupta-v2.netlify.app/**
 
-** Overview:**
+**Overview:**
 
 This project is a personal portfolio website developed to showcase my skills, projects, and professional background. Built using modern web technologies, it provides visitors with a comprehensive view of my work and capabilities.
 
