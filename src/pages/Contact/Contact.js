@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import { useForm } from "react-hook-form";
 import contact from "../../data/images/contact.jpg";
 import contactMobile from "../../data/images/contact-mobile.avif";
@@ -14,14 +13,10 @@ function Contact() {
     handleSubmit,
     formState: { errors, isSubmitting },
   } = useForm();
-  const [subject, setSubject] = useState("");
-  const [body, setBody] = useState("");
 
   const onSubmit = (data) => {
     const newSubject = data.Subject;
     const newBody = `Name: ${data.Name}%0D%0AEmail: ${data.Email}%0D%0AMobile: ${data.Mobile}%0D%0AMessage: ${data.Message}`;
-    setSubject(encodeURIComponent(newSubject));
-    setBody(encodeURIComponent(newBody));
     // Redirect to Gmail compose page
     window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=spandan2405@gmail.com&su=${encodeURIComponent(
       newSubject
