@@ -5,7 +5,7 @@ function Resume() {
   return (
     <section id="Resume">
       <a
-        href="https://drive.google.com/file/d/1Mpq4tlrGnoClm4IBdS_dh49r1lNwqxNu/view?usp=sharing"
+        href="https://drive.google.com/file/d/1738j7iEpL5ZaAKtvSFRGqo1yW2zEmeJi/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >
