@@ -13,7 +13,7 @@ const projects = [
     description:
       "Revamped an existing jewelry store website into a modern, mobile-friendly e-commerce platform using React.js, Tailwind CSS, and JavaScript, increasing user engagement. Created a visually appealing UI/UX design and a dynamic product catalog to showcase over 50 products effectively. Ensured cross-device compatibility by designing a fully responsive inter ",
     demoLink: "https://jewels-sooty.vercel.app/",
-    codeLink: "https://github.com/Spandan2405/Jwelery_Products",
+    codeLink: "https://github.com/Spandan2405/jewels",
     technologies: [
       "HTML",
       "Tailwind CSS",
