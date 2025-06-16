@@ -4,8 +4,40 @@ import forkify from "../../data/images/Forkify-bookmark.png";
 import portfolio from "../../data/images/Portfolio.png";
 import travelWorld from "../../data/images/Travel-World.png";
 import shofy from "../../data/images/Shofy.png";
+import spotify from "../../data/images/Spotify-Dashboard.png";
 
 const projects = [
+  {
+    image: shofy,
+    title: "Shofy - Jewelry E-commerce Platform",
+    description:
+      "Revamped an existing jewelry store website into a modern, mobile-friendly e-commerce platform using React.js, Tailwind CSS, and JavaScript, increasing user engagement. Created a visually appealing UI/UX design and a dynamic product catalog to showcase over 50 products effectively. Ensured cross-device compatibility by designing a fully responsive inter ",
+    demoLink: "https://jewels-sooty.vercel.app/",
+    codeLink: "https://github.com/Spandan2405/Jwelery_Products",
+    technologies: [
+      "HTML",
+      "Tailwind CSS",
+      "JavaScript",
+      "React.js",
+      "Next.js",
+      "Sanity",
+    ],
+  },
+  {
+    image: spotify,
+    title: "Spotify Insights Dashboard",
+    description:
+      "Engineered a full-featured Spotify profile viewer by integrating Spotify Web API with React.js, replicating profile statistics, top music trends, and user playlists with secure OAuth authentication. Focused on responsive UI design, state management, and seamless data rendering to mirror Spotify's native experience while optimizing performance and usability",
+    demoLink: "https://spotify-insights-dashboard.vercel.app/",
+    codeLink: "https://github.com/Spandan2405/Spotify-Insights-Dashboard",
+    technologies: [
+      "React",
+      "Context API",
+      "JavaScript",
+      "Tailwind CSS",
+      " REST API",
+    ],
+  },
   {
     image: usePopcorn,
     title: "usePopcorn - Movie and Series Search Platform",
@@ -32,22 +64,6 @@ const projects = [
     demoLink: "https://portfolio-website-tawny-phi-52.vercel.app/",
     codeLink: "https://github.com/Spandan2405/portfolio-website",
     technologies: ["HTML", "CSS", "JavaScript", "React.js", "Bootstrap"],
-  },
-  {
-    image: shofy,
-    title: "Shofy - Jewelry E-commerce Platform",
-    description:
-      "Revamped an existing jewelry store website into a modern, mobile-friendly e-commerce platform using React.js, Bootstrap, and JavaScript, increasing user engagement. Created a visually appealing UI/UX design and a dynamic product catalog to showcase over 50 products effectively. Ensured cross-device compatibility by designing a fully responsive inter ",
-    demoLink: "https://github.com/Spandan2405/Jwelery_Products",
-    codeLink: "https://github.com/Spandan2405/Jwelery_Products",
-    technologies: [
-      "HTML",
-      "Tailwind CSS",
-      "JavaScript",
-      "React.js",
-      "Next.js",
-      "Supabase",
-    ],
   },
   {
     image: travelWorld,
